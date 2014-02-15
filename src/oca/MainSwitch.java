@@ -8,7 +8,7 @@ public class MainSwitch {
 
     public static void main(String[] args) {
 
-        String color = "green";
+        String color = "blue";
 
         switch (color) {
 

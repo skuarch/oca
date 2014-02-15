@@ -11,9 +11,13 @@ public class MainStringBuilder {
      * @param args 
      */
     public static void main(String[] args) {
-        StringBuilder sb = new StringBuilder("skuarch ");
+        StringBuilder sb = new StringBuilder("skuarch ");        
         change(sb);
         System.out.println(sb.toString());
+        
+        //remove the elements
+        sb.delete(0, sb.length());
+        
     }
     
     private static void change(StringBuilder sb){
