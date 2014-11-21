@@ -12,11 +12,15 @@ public class StaticMain {
         i = 9;
         new StaticMain().something();
         System.out.println(i);
+        StaticMain.otherMethod();
     }
 
     //este metodo puede acceder a las variables staticas sin ser statico
     public void something() {
-        i = 4;
+        i = 4;        
+    }
+    
+    static void otherMethod(){
     }
 
 }
